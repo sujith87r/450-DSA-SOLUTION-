@@ -33,8 +33,5 @@ def MatrixChainOrder(p, i, j):
 if __name__ == '__main__':
     arr = [1, 2, 3, 4, 3]
     N = len(arr)
-     
-    # Function call
-    print("Minimum number of multiplications is ",
-      MatrixChainOrder(arr, 1, N-1))
+    print("Minimum number of multiplications is ",MatrixChainOrder(arr, 1, N-1))
  
